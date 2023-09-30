@@ -1,3 +1,7 @@
+using Microsoft.EntityFrameworkCore;
+
+using WebApplication1_.netcore.Data;
+
 namespace WebApplication1_.netcore
 {
     public class Program
@@ -8,6 +12,8 @@ namespace WebApplication1_.netcore
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();
+            builder.Services.AddDbContext<ApplicationDbContext>(option=> 
+            option.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
             var app = builder.Build();
 
