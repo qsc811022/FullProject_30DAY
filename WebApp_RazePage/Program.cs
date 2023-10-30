@@ -1,3 +1,7 @@
+using Microsoft.EntityFrameworkCore;
+
+using WebApp_RazePage.Data;
+
 namespace WebApp_RazePage
 {
     public class Program
@@ -5,9 +9,13 @@ namespace WebApp_RazePage
         public static void Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
+            
 
             // Add services to the container.
             builder.Services.AddRazorPages();
+            builder.Services.AddDbContext<ApplicationDbContext>(option=>option.UseSqlServer(
+                        builder.Configuration.GetConnectionString("DefaultConnection")
+                ));
 
             var app = builder.Build();
 
