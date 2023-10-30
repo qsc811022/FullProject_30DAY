@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApp_RazePage", "WebApp_RazePage.csproj", "{15C0DA33-0DA1-4BB4-977F-93D3212B94D5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApp_RazePage", "WebApp_RazePage.csproj", "{15C0DA33-0DA1-4BB4-977F-93D3212B94D5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
