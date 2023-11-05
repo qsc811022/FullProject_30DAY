@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "8z7q+l9MCZxyxDGIk83yMwluHchtL2SR0bKC4wKwlgY=",
+  "Hash": "lHsmiOYraueQFV8jrWTEoB3QX7ikhiVCmho6wCiFqnE=",
   "Source": "WebApp_RazePage",
   "BasePath": "_content/WebApp_RazePage",
   "Mode": "Default",
@@ -49,6 +49,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "D:\\FullProject\\WebApp_RazePage\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\WebApp_RazePage.bundle.scp.css"
+    },
+    {
+      "Identity": "D:\\FullProject\\WebApp_RazePage\\wwwroot\\css\\bootswatch.css",
+      "SourceId": "WebApp_RazePage",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\FullProject\\WebApp_RazePage\\wwwroot\\",
+      "BasePath": "_content/WebApp_RazePage",
+      "RelativePath": "css/bootswatch.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\bootswatch.css"
     },
     {
       "Identity": "D:\\FullProject\\WebApp_RazePage\\wwwroot\\css\\site.css",

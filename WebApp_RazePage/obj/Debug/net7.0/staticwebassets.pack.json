@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\WebApp_RazePage.bundle.scp.css"
     },
     {
+      "Id": "D:\\FullProject\\WebApp_RazePage\\wwwroot\\css\\bootswatch.css",
+      "PackagePath": "staticwebassets\\css\\bootswatch.css"
+    },
+    {
       "Id": "D:\\FullProject\\WebApp_RazePage\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
